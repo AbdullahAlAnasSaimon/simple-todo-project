@@ -8,6 +8,8 @@
     listContainer.addEventListener('click', function(event){
       // event.target.parentNode.removeChild(event.target);
       event.target.style.textDecoration = "line-through";
+      let myAudio = document.querySelector('#audio')
+      myAudio.play();
     })
     listContainer.addEventListener("dblclick", function(event){
       event.target.parentNode.removeChild(event.target);
