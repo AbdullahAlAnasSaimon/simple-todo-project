@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#todo{
+  margin-top: 50px;
+  width: 50%;
+}
+.todo-title{
+  color: #212121;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+input[type = 'text']{
+  padding: 5px 5px;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+input[type = 'text']:focus{
+  border: 1px solid blue;
+}
+#btn-task{
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 17%;
+}
+ul li{
+  list-style-type: none;
+  padding: 15px;
+  margin: 5px 0px;
+  font-size: 20px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+input[type = 'checkbox']{
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.aside-section{
+  position: relative;
+}
+.aside{
+  background-color: #e5e5e5;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  position: fixed;
+  top: 40%;
+}
+.aside p{
+  line-height: 25px;
+}
