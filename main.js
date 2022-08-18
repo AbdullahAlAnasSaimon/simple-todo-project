@@ -8,6 +8,7 @@
     listContainer.addEventListener('click', function(event){
       // event.target.parentNode.removeChild(event.target);
       event.target.style.textDecoration = "line-through";
+      event.target.style.color = "gray";
       let myAudio = document.querySelector('#audio')
       myAudio.play();
     })
