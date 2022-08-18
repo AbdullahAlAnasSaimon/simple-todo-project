@@ -9,6 +9,7 @@
       // event.target.parentNode.removeChild(event.target);
       event.target.style.textDecoration = "line-through";
       event.target.style.color = "gray";
+      event.target.style.backgroundColor = "#f2f9ff9d";
       let myAudio = document.querySelector('#audio')
       myAudio.play();
     })
